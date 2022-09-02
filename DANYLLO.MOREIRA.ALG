@@ -1,0 +1,21 @@
+Algoritmo "Danyllo Moreira"
+//
+
+Var
+
+// Seção de Declarações das variáveis 
+   nome, snome, ncompleto: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreval ("Digite seu nome ")
+   leia (nome)
+   
+   escreval ("Digite seu sobrenome ")
+   leia (snome)
+   
+   ncompleto <- nome + " " + snome
+   
+   escreval (ncompleto)
+   
+Fimalgoritmo
